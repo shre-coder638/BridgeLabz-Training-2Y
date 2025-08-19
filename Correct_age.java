@@ -1,0 +1,14 @@
+// Creating Class with name DisplayResult indicating the purpose is to display 
+// result. Notice the class name is a Noun.
+class Correct_age {
+    public static void main(String[] args) {
+     
+        // Create a string variable name and assign value Sam
+        int birthyear = 2000;
+     
+        // Create a int variable rollNumber and assign value 1
+        int currentYear = 2024;
+
+       System.out.println("Correct Age: " + (currentYear - birthyear));
+    }
+}
