@@ -1,14 +1,16 @@
 // Creating Class with name DisplayResult indicating the purpose is to display 
 // result. Notice the class name is a Noun.
-class Correct_age {
+class average_marks {
     public static void main(String[] args) {
      
         // Create a string variable name and assign value Sam
-        int birthyear = 2000;
-     
-        // Create a int variable rollNumber and assign value 1
-        int currentYear = 2024;
+        int Math = 94;
+        int Physics = 95;
+        int Chemistry = 96;
 
-       System.out.println("Harry's age in 2024 is " + (currentYear - birthyear));
+        // Create a int variable rollNumber and assign value 1
+        int average = (Math + Physics + Chemistry) / 3;
+
+       System.out.println("Sams average mark in PCM is " + average);
     }
 }
