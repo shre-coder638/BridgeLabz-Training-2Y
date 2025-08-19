@@ -10,6 +10,5 @@ class Kmtomiles {
         int Km = input.nextInt();
         double miles = Km * 0.6;
        System.out.println("The total miles is " + miles + " mile for the given " + Km + " km");
-       
     }
 }
