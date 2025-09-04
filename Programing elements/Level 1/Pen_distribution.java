@@ -1,5 +1,4 @@
-// Creating Class with name DisplayResult indicating the purpose is to display 
-// result. Notice the class name is a Noun.
+
 class Pen_distribution {
     public static void main(String[] args) {
      
