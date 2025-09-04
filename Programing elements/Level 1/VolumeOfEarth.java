@@ -1,9 +1,7 @@
-// Creating Class with name DisplayResult indicating the purpose is to display 
-// result. Notice the class name is a Noun.
+
 class VolumeOfEarth {
     public static void main(String[] args) {
      
-        // Create a string variable name and assign value Sam
         double pi = 3.14;
         int r1 = 6378;
         double r2 = r1 * 1.6;
