@@ -2,7 +2,6 @@
 class Pen_distribution {
     public static void main(String[] args) {
      
-        // Create a string variable name and assign value Sam
         int totalPens = 14;
         int students = 3;
         int pensPerStudent = totalPens / students;
