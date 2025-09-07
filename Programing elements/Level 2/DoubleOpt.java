@@ -1,10 +1,8 @@
-// Creating Class with name DisplayResult indicating the purpose is to display 
-// result. Notice the class name is a Noun.
+
 import java.util.Scanner;
 class DoubleOpt{
     public static void main(String[] args) {
      
-        // Create a string variable name and assign value Sam
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the first number: ");
         double a = input.nextDouble();
