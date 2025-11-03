@@ -12,10 +12,10 @@ public class StaticImportDemo {
 
         System.out.println("Demonstrating Static Import from java.lang.Math\n");
 
-        System.out.println("1️ Square root of " + num1 + " = " + sqrt(num1));
-        System.out.println("2 Power (" + base + "^" + exponent + ") = " + pow(base, exponent));
-        System.out.println("3️ Absolute value of " + num2 + " = " + abs(num2));
-        System.out.println("4️ Maximum of 15 and 30 = " + max(15, 30));
-        System.out.println("5️ Minimum of 15 and 30 = " + min(15, 30));
+        System.out.println("Square root of " + num1 + " = " + sqrt(num1));
+        System.out.println("Power (" + base + "^" + exponent + ") = " + pow(base, exponent));
+        System.out.println("Absolute value of " + num2 + " = " + abs(num2));
+        System.out.println("Maximum of 15 and 30 = " + max(15, 30));
+        System.out.println("Minimum of 15 and 30 = " + min(15, 30));
     }
 }

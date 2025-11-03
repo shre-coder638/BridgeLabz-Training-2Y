@@ -11,7 +11,7 @@ public class Course {
         this.credits = credits;
     }
 
-    public void displayCourseDetails() {
+    public void displayDetails() {
         System.out.println("Course Name: " + courseName);
         System.out.println("Course Code: " + courseCode);
         System.out.println("Credits: " + credits);

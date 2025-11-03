@@ -4,7 +4,7 @@ import school.data.Student;
 
 public class Analyze {
 
-    public double calculateAverage(Student s) {
+    public double Average(Student s) {
         return (s.getMarks1() + s.getMarks2() + s.getMarks3()) / 3.0;
     }
 

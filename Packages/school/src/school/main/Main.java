@@ -10,10 +10,10 @@ public class Main {
 
         Analyze analyzer = new Analyze();
 
-        double avg = analyzer.calculateAverage(s1);
+        double avg = analyzer.Average(s1);
         char grade = analyzer.findGrade(avg);
 
-        System.out.println("=== Student Performance Report ===");
+        System.out.println("Student Performance Report");
         System.out.println(s1.toString());
         System.out.println("Average Marks: " + avg);
         System.out.println("Grade: " + grade);

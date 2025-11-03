@@ -3,14 +3,16 @@ import company.analytics.hr.EmployeeReport;
 
 public class MainApp {
     public static void main(String[] args) {
-        System.out.println("=== Company Analytics Report ===\n");
-
+        System.out.println("Company Analytics Report\n");
+        
+        System.out.println("Sales Report\n");
+        
         SalesReport sales = new SalesReport();
-        sales.showSalesData();
-
+        sales.showData();
+        
+        System.out.println("Employee Report\n");
         EmployeeReport hr = new EmployeeReport();
-        hr.showEmployeeData();
+        hr.showData();
 
-        System.out.println("Combined report generated successfully!");
-    }
+        }
 }

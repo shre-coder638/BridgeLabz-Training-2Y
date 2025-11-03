@@ -7,14 +7,14 @@ public class Main {
  public static void main(String[] args) {
      Employee emp = new Employee(101, "Aarav Mehta", "HR", 50000);
 
-     System.out.println("=== Employee Details Before Bonus ===");
+     System.out.println("Employee Details Before Bonus");
      emp.displayDetails();
 
-     System.out.println("\n=== Processing Payroll ===");
+     System.out.println("\nProcessing Payroll");
      Payroll payroll = new Payroll();
      payroll.calculateBonus(emp);
 
-     System.out.println("\n=== Employee Details After Bonus ===");
+     System.out.println("\nEmployee Details After Bonus");
      emp.displayDetails();
  }
 }
