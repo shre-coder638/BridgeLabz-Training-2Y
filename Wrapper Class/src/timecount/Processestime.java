@@ -9,16 +9,16 @@ public class Processestime {
 
         long start1 = System.currentTimeMillis();
         ArrayList<Integer> list = new ArrayList<>(SIZE);
-        for (int i = 0; i < SIZE; i++) list.add(i);
+        for (int i = 0; i < SIZE; i++){list.add(i);}
         long sum1 = 0;
-        for (Integer n : list) sum1 += n;   
+        for (Integer n : list){ sum1 += n;}   
         long end1 = System.currentTimeMillis();
 
         long start2 = System.currentTimeMillis();
         int[] arr = new int[SIZE];
-        for (int i = 0; i < SIZE; i++) arr[i] = i;
+        for (int i = 0; i < SIZE; i++){ arr[i] = i;}
         long sum2 = 0;
-        for (int n : arr) sum2 += n;
+        for (int n : arr){ sum2 += n;}
         long end2 = System.currentTimeMillis();
 
         System.out.println("ArrayList time: " + (end1 - start1) + " ms");
